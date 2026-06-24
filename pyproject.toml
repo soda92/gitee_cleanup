@@ -1,0 +1,19 @@
+[project]
+name = "gitee-cleanup"
+version = "0.1.0"
+description = "Gitee Dashboard Cleanup CLI and Analysis Tool"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+]
+
+[project.scripts]
+gitee-cleanup = "gitee_cleanup.main:main"
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

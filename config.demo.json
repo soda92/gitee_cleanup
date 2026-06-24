@@ -1,0 +1,5 @@
+{
+  "har_path": "resources/gitee.com.har",
+  "html_path": "resources/工作台 - Gitee.com.html",
+  "output_report_path": "graphql_requests_analysis.md"
+}
