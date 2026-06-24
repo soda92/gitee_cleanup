@@ -3,9 +3,10 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.5
 // @description  移除 Gitee 工作台的“推荐关注”、“推荐仓库”板块，以及“智能客服”浮标、“模力方舟”和“AI队友”导航菜单，并禁用 favicon 动态红点提醒
-// @author       You
+// @author       SodaCris
 // @match        https://gitee.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gitee.com
+// @license      MIT
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
